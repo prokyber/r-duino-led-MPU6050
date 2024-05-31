@@ -30,6 +30,14 @@ Přenos dat se zahajuje START bitem (S), když je SDA nízká, zatímco SCL zůs
 # Zapojení
 <img alt="Zapojení" src="https://github.com/prokyber/r-duino-led-MPU6050/blob/main/img/zapojeni.png" style=" Height: 60vh;">
 
+U obou zařízení bude muset propojit tyto piny s piny Ř-duino-LED:
+5V -> VCC/VIN
+GND -> GND
+SDA -> SDA
+SCL -> SCL/SCK
+
+Poté také musíme spojit:
+pin 2 (Ř-duino-LED) -> INT (MPU 6050)
 
 # Knihovny
 Před tím než začeme psát kód tak si pro účely tohoto projektu budeme muset stáhnou jednu externí knihovnu díky které si usnadníme komunikaci s displejem. Klikněte na Nástorje -> Spravovat knihovny. Na levé straně by se vám měla otevřít lišta s možností vyhledávání. Zde vyhledejte "U8glib" vybereme verzi 1.19.1 a dáme instalovat.
