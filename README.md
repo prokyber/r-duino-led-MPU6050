@@ -1,4 +1,5 @@
 # Gyroskopický senzor s diplejem pomocí Ř-duino-LED
+Cílem tohoto projektu bude zjistit hodnoty gyroskopických os připojeného senzoru MPU 6050 a zobrazit je na OLED displeji.
 
 # Součástky
 - Ř-duino-LED
