@@ -31,6 +31,7 @@ Přenos dat se zahajuje START bitem (S), když je SDA nízká, zatímco SCL zůs
 
 
 # Knihovny
+Před tím než začeme psát kód tak si pro účely tohoto projektu budeme muset stáhnou jednu externí knihovnu díky které si usnadníme komunikaci s displejem. Klikněte na Nástorje -> Spravovat knihovny. Na levé straně by se vám měla otevřít lišta s možností vyhledávání. Zde vyhledejte "U8glib" vybereme verzi 1.19.1 a dáme instalovat.
 
 # Kód
 (Soubor ke stažení výše)
